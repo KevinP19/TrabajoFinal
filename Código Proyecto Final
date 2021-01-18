@@ -1,5 +1,44 @@
 #include <stdlib.h>
 #include <stdio.h>
+typedef struct Compania{
+	char Fecha[15];
+	char Nombre[20];
+}Compania;
+typedef struct Empleado{
+	char Cedula[20];
+	char Nombres[30];
+	char Cargo[30];
+}Empleado;
+typedef struct Ingresos{
+	float SueldoNeto;
+	float HorasNocturnas;
+	float HorasSuplementarias;
+	float HorasExtraordinarias;
+	float Comisiones;
+	float FondoReserva;
+}Ingresos;
+typedef struct Descuentos{
+	float IESSPersonal;
+	float PrestamoEmpresa;
+	float PrestamoQuirografario;
+	float PrestamoHipotecario;
+	float ImpuestoRenta;
+	float Quincena;
+	float Anticipos;
+	float PrestamoIESS;
+}Descuentos;
+typedef struct Saldos{
+	float TotalIngresos;
+	float TotalDescuentos;
+	float TotalRecibe;
+}Saldos;
+typedef struct RoldePagos{
+	Compania c;
+	Empleado e;
+	Ingresos i;
+	Descuentos d;
+	Saldos s;
+}RoldePagos;
 int main(){
     
     return 0;
