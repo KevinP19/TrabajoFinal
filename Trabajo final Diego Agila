@@ -1,0 +1,14 @@
+/*  CALCULO DE LOS DESCUENTOS  */
+printf("\n******DESCUENTOS****\n");  
+	printf("DESCUENTOS\n");
+	rp.d.IESSPersonal = rp.i.SueldoNeto * 0.0945;
+	printf("IESS Personal: %.2f\n",rp.d.IESSPersonal);
+	rp.d.PrestamoEmpresa = rp.i.SueldoNeto * 0;
+	printf("Prestamo Empresa: %.2f\n",rp.d.PrestamoEmpresa);
+	rp.d.PrestamoQuirografario = rp.i.SueldoNeto * 0.03;
+	printf("Prestamo Quirografario: %.2f\n",rp.d.PrestamoQuirografario);
+	rp.d.PrestamoHipotecario = rp.i.SueldoNeto * 0;
+	printf("Prestamo Hipotecario: %.2f\n",rp.d.PrestamoHipotecario);
+	rp.d.ImpuestoRenta = rp.i.SueldoNeto * 0;
+	printf("Impuesto a la renta: %.2f\n",rp.d.ImpuestoRenta);
+	rp.d.Quincena = rp.i.SueldoNeto * 0;
