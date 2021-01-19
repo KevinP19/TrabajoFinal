@@ -1,1 +1,16 @@
-
+printf("\n************************************INGRESOS**********************************\n");
+	printf("Sueldo Neto:                                            ");
+	scanf("%f",&rp.i.SueldoNeto);
+	rp.i.HorasNocturnas = rp.i.SueldoNeto * 0;
+	printf("Horas Nocturnas:                                        %.2f\n",rp.i.HorasNocturnas);
+	rp.i.HorasSuplementarias =  * 2;
+	printf("Horas suplementarias:                                   %.2f\n",rp.i.HorasSuplementarias);
+	rp.i.HorasExtraordinarias = 10 * 1.5;
+	printf("Horas Extraordinarias:                                  %.2f\n",rp.i.HorasExtraordinarias);
+	rp.i.Comisiones = rp.i.SueldoNeto * 0;
+	printf("Comisiones:                                             %.2f\n",rp.i.Comisiones);
+	rp.i.FondoReserva = rp.i.SueldoNeto * 0.0833;
+	printf("Fondo de Reserva:                                       %.2f\n",rp.i.FondoReserva);
+	rp.s.TotalIngresos = (rp.i.SueldoNeto + rp.i.HorasNocturnas + rp.i.HorasSuplementarias + rp.i.HorasExtraordinarias + rp.i.Comisiones + rp.i.FondoReserva);
+	rp.s.TotalIngresos = rp.s.TotalIngresos;
+	printf("Total de Ingresos:                                      %.2f",rp.s.TotalIngresos);
