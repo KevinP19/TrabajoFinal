@@ -1,0 +1,15 @@
+int main(int argc, char *argv[]) {
+	struct RoldePagos rp;
+	float  TotalIngresos = 0, TotalDescuentos = 0, TotalRecibe = 0;
+	printf("Datos Compañia\n");
+	printf("Fecha:\t");
+	scanf("%s",&rp.c.Fecha);
+	printf("Nombre:\t");
+	scanf("%s",&rp.c.Nombre);
+	printf("Datos del Empleado\n");
+	printf("Cedula:\n");
+	scanf("%s",&rp.e.Cedula);
+	printf("Nombres:\n");
+	scanf("%s",&rp.e.Nombres);
+	printf("Cargo:\n");
+	scanf("%s",&rp.e.Cargo);
