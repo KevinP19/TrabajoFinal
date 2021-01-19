@@ -1,1 +1,14 @@
+printf("Quincena: %.2f\n",rp.d.Quincena);
+	rp.d.PrestamoIESS = rp.i.SueldoNeto * 0;
+	printf("Prestamo IESS:  %.2f\n",rp.d.PrestamoIESS);
+	rp.s.TotalDescuentos = (rp.d.IESSPersonal + rp.d.PrestamoEmpresa + rp.d.PrestamoQuirografario + rp.d.PrestamoHipotecario + rp.d.ImpuestoRenta + rp.d.Quincena + rp.d.PrestamoIESS);
+	rp.s.TotalDescuentos = rp.s.TotalDescuentos;
+	printf("Total de Descuento: %.2f\n",rp.s.TotalDescuentos);
+	rp.s.TotalRecibe = rp.s.TotalIngresos - rp.s.TotalDescuentos;
+	rp.s.TotalRecibe = 	rp.s.TotalRecibe;
+	printf("Total que Recibe. %.2f\n",rp.s.TotalRecibe);
+	printf("\n***********\n");
+	printf("Recibe conforme:___\t");
 
+	return 0;
+}
